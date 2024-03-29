@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="600.0" style="-fx-background-color: BB1717;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.SignUpPage">
+   <children>
+      <ScrollPane hbarPolicy="NEVER" hmin="400.0" hvalue="1.0" prefHeight="600.0" prefWidth="600.0" vbarPolicy="ALWAYS">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="800.0" prefWidth="800.0" style="-fx-background-color: BB1717;">
+               <children>
+                  <Label fx:id="log" layoutX="169.0" layoutY="40.0" text="Enter your details." textFill="WHITE">
+                     <font>
+                        <Font name="Century Gothic Bold" size="36.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="74.0" fitWidth="108.0" layoutX="72.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@logo.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="firstname" layoutX="36.0" layoutY="136.0" text="First Name" textFill="WHITE">
+                     <font>
+                        <Font name="Century Gothic Bold" size="22.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="tf_firstname" layoutX="169.0" layoutY="129.0" prefHeight="42.0" prefWidth="336.0">
+                     <font>
+                        <Font name="Century Gothic" size="18.0" />
+                     </font>
+                  </TextField>
+                  <Label fx:id="lastname" layoutX="36.0" layoutY="200.0" text="Last Name" textFill="WHITE">
+                     <font>
+                        <Font name="Century Gothic Bold" size="22.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="tf_lastname" layoutX="169.0" layoutY="193.0" prefHeight="42.0" prefWidth="336.0">
+                     <font>
+                        <Font name="Century Gothic" size="18.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="tf_cnp" layoutX="169.0" layoutY="256.0" prefHeight="42.0" prefWidth="336.0">
+                     <font>
+                        <Font name="Century Gothic" size="18.0" />
+                     </font>
+                  </TextField>
+                  <Label fx:id="cnp" layoutX="69.0" layoutY="264.0" text="CNP" textFill="WHITE">
+                     <font>
+                        <Font name="Century Gothic Bold" size="22.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="gender" layoutX="51.0" layoutY="325.0" text="Gender" textFill="WHITE">
+                     <font>
+                        <Font name="Century Gothic Bold" size="22.0" />
+                     </font>
+                  </Label>
+                  <ChoiceBox fx:id="choiceGender" layoutX="169.0" layoutY="322.0" prefHeight="34.0" prefWidth="62.0" style="-fx-background-color: FFFFFF;" />
+                  <Label fx:id="blood" layoutX="33.0" layoutY="386.0" text="Blood Type" textFill="WHITE">
+                     <font>
+                        <Font name="Century Gothic Bold" size="22.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="tf_username" layoutX="169.0" layoutY="441.0" prefHeight="42.0" prefWidth="336.0">
+                     <font>
+                        <Font name="Century Gothic" size="18.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="tf_email" layoutX="169.0" layoutY="505.0" prefHeight="42.0" prefWidth="336.0">
+                     <font>
+                        <Font name="Century Gothic" size="18.0" />
+                     </font>
+                  </TextField>
+                  <Label fx:id="username" layoutX="38.0" layoutY="448.0" text="Username" textFill="WHITE">
+                     <font>
+                        <Font name="Century Gothic Bold" size="22.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="email" layoutX="62.0" layoutY="512.0" text="email" textFill="WHITE">
+                     <font>
+                        <Font name="Century Gothic Bold" size="22.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="password" layoutX="42.0" layoutY="571.0" text="Password" textFill="WHITE">
+                     <font>
+                        <Font name="Century Gothic Bold" size="22.0" />
+                     </font>
+                  </Label>
+                  <ChoiceBox fx:id="type1" layoutX="169.0" layoutY="383.0" prefHeight="34.0" prefWidth="62.0" style="-fx-background-color: FFFFFF;" />
+                  <ChoiceBox fx:id="type2" layoutX="269.0" layoutY="383.0" prefHeight="34.0" prefWidth="62.0" style="-fx-background-color: FFFFFF;" />
+                  <Button fx:id="create_account" layoutX="157.0" layoutY="700.0" mnemonicParsing="false" style="-fx-background-color: transparent; -fx-cursor: hand;" text="Create your account." textFill="WHITE">
+                     <font>
+                        <Font name="Century Gothic Bold" size="26.0" />
+                     </font>
+                  </Button>
+                  <PasswordField fx:id="pf_password1" layoutX="168.0" layoutY="564.0" prefHeight="41.0" prefWidth="337.0" style="-fx-background-color: FFFFFF;">
+                     <font>
+                        <Font name="Century Gothic" size="16.0" />
+                     </font>
+                  </PasswordField>
+                  <Label fx:id="password1" layoutX="41.0" layoutY="621.0" text="Corfirm &#10;password" textFill="WHITE">
+                     <font>
+                        <Font name="Century Gothic Bold" size="22.0" />
+                     </font>
+                  </Label>
+                  <PasswordField fx:id="pf_password2" layoutX="169.0" layoutY="628.0" prefHeight="41.0" prefWidth="337.0" style="-fx-background-color: FFFFFF;">
+                     <font>
+                        <Font name="Century Gothic" size="16.0" />
+                     </font>
+                  </PasswordField>
+                  <Button fx:id="back" layoutX="471.0" layoutY="743.0" mnemonicParsing="false" style="-fx-background-color: transparent; -fx-cursor: hand;" text="&lt;Back" textFill="WHITE" underline="true">
+                     <font>
+                        <Font name="Century Gothic" size="22.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

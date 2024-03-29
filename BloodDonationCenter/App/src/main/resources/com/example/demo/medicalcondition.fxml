@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="600.0" style="-fx-background-color: BB1717;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.Medicalcondition">
+   <children>
+      <AnchorPane prefHeight="600.0" prefWidth="200.0" style="-fx-background-color: FFFFFF;">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="25.0" layoutY="225.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@logo.png" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+      <Label fx:id="text" layoutX="222.0" layoutY="70.0" text="Please enter some details for &#10;your medical condition." textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Century Gothic Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="condition" layoutX="239.0" layoutY="219.0" text="Medical &#10;Condition" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Century Gothic Bold" size="20.0" />
+         </font></Label>
+      <Label fx:id="date" layoutX="240.0" layoutY="294.0" text="Date of &#10;diagnosis" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Century Gothic Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="treatment" layoutX="238.0" layoutY="382.0" text="Treatment" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Century Gothic Bold" size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tf_treatment" layoutX="344.0" layoutY="376.0" prefHeight="38.0" prefWidth="242.0">
+         <font>
+            <Font name="Century Gothic" size="18.0" />
+         </font>
+      </TextField>
+      <ChoiceBox fx:id="conditii" layoutX="344.0" layoutY="219.0" prefHeight="38.0" prefWidth="242.0" style="-fx-background-color: FFFFFF;" />
+      <DatePicker fx:id="datePicker" layoutX="344.0" layoutY="300.0" prefHeight="38.0" prefWidth="242.0" />
+      <Button fx:id="save" layoutX="354.0" layoutY="466.0" mnemonicParsing="false" style="-fx-background-color: FFFFFF; -fx-cursor: hand;" text="SAVE" textFill="#851111">
+         <font>
+            <Font name="Century Gothic Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="back" layoutX="267.0" layoutY="528.0" mnemonicParsing="false" style="-fx-background-color: FFFFFF; -fx-cursor: hand;" text="RETURN TO HOME PAGE" textFill="#811414">
+         <font>
+            <Font name="Century Gothic Bold" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="600.0" style="-fx-background-color: #b3e5fc;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.AccountCreated">
+   <children>
+      <ImageView fitHeight="528.0" fitWidth="600.0" layoutY="75.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@fundal.png" />
+         </image></ImageView>
+      <Label fx:id="succes" layoutX="338.0" layoutY="53.0" text="Your account has &#10;been successfully &#10;created." textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Century Gothic Italic" size="28.0" />
+         </font>
+      </Label>
+      <Button fx:id="sign" layoutX="300.0" layoutY="460.0" mnemonicParsing="false" style="-fx-background-color: transparent; -fx-cursor: hand;" text="Log in into your new account." textFill="WHITE">
+         <font>
+            <Font name="Century Gothic Bold" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
