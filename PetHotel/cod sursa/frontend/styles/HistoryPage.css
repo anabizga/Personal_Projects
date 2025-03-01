@@ -1,0 +1,172 @@
+/* Reset and global styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #dff9fb;
+    color: #333;
+}
+
+/* Main page container */
+.history-page {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Page title */
+.history-page h1 {
+    text-align: center;
+    color: #007acc;
+    margin-bottom: 20px;
+}
+
+/* Reservation list container */
+.reservations-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Individual reservation card */
+.reservation-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+}
+
+.reservation-card h2 {
+    margin: 0;
+    color: #005b99;
+    font-size: 1.5rem;
+}
+
+.reservation-card p {
+    margin: 0;
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Footer of the reservation card */
+.reservation-footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.reservation-footer .state {
+    font-weight: bold;
+    color: #007acc;
+}
+
+.reservation-footer .date {
+    font-style: italic;
+}
+
+/* Review button */
+.leave-review-button {
+    align-self: flex-start;
+    background-color: #007acc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.leave-review-button:hover {
+    background-color: #005b99;
+}
+
+/* Details button */
+.details-button {
+    align-self: flex-start;
+    background-color: #00b894;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.details-button:hover {
+    background-color: #008f6e;
+}
+
+/* Reservation details section */
+.reservation-details {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.reservation-details h2 {
+    margin-top: 0;
+    color: #007acc;
+}
+
+.reservation-details ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.reservation-details ul li {
+    margin: 5px 0;
+    padding: 5px 10px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #333;
+}
+
+.reservation-details ul li:hover {
+    background-color: #f1f1f1;
+}
+
+.reservation-details h3 {
+    color: #005b99;
+    margin-bottom: 10px;
+}
+
+.reservation-details p {
+    font-size: 1rem;
+    color: #333;
+    margin: 5px 0;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .reservation-card {
+        padding: 15px;
+    }
+
+    .leave-review-button,
+    .details-button {
+        font-size: 0.9rem;
+        padding: 8px 12px;
+    }
+
+    .reservation-details {
+        padding: 15px;
+    }
+
+    .reservation-details ul li {
+        font-size: 0.9rem;
+    }
+}

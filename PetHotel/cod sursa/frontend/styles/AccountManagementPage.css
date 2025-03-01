@@ -1,0 +1,79 @@
+.account-management-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: #007acc;
+}
+
+.user-details, .contacts-section {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input, select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #f9f9f9;
+}
+
+button {
+    background-color: #007acc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #005b99;
+}
+
+.success-message, .error-message {
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.success-message {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.error-message {
+    background-color: #f8d7da;
+    color: #721c24;
+}

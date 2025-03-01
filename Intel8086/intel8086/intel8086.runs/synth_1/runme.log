@@ -1,0 +1,518 @@
+
+*** Running vivado
+    with args -log intel8086.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source intel8086.tcl
+
+
+
+****** Vivado v2022.2 (64-bit)
+  **** SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+  **** IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source intel8086.tcl -notrace
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 377.359 ; gain = 64.246
+Command: read_checkpoint -auto_incremental -incremental {D:/facultate/an 3/sem 1/SSC/proiect/intel8086/intel8086.srcs/utils_1/imports/synth_1/JumpControl.dcp}
+INFO: [Vivado 12-5825] Read reference checkpoint from D:/facultate/an 3/sem 1/SSC/proiect/intel8086/intel8086.srcs/utils_1/imports/synth_1/JumpControl.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top intel8086 -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 25052
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [C:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1206.398 ; gain = 409.172
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'intel8086' [D:/facultate/an 3/sem 1/SSC/proiect/intel8086/intel8086.srcs/sources_1/new/intel8086.vhd:43]
+INFO: [Synth 8-3491] module 'MPG' declared at 'D:/facultate/an 2/sem2/AC/lab/MPG.vhd:14' bound to instance 'etichetaMPG' of component 'mpg' [D:/facultate/an 3/sem 1/SSC/proiect/intel8086/intel8086.srcs/sources_1/new/intel8086.vhd:143]
+INFO: [Synth 8-638] synthesizing module 'MPG' [D:/facultate/an 2/sem2/AC/lab/MPG.vhd:20]
+INFO: [Synth 8-256] done synthesizing module 'MPG' (0#1) [D:/facultate/an 2/sem2/AC/lab/MPG.vhd:20]
+INFO: [Synth 8-3491] module 'SegmentRegisters' declared at 'D:/facultate/an 3/sem 1/SSC/proiect/intel8086/intel8086.srcs/sources_1/new/SegmentRegisters.vhd:35' bound to instance 'uut_segRegisters' of component 'SegmentRegisters' [D:/facultate/an 3/sem 1/SSC/proiect/intel8086/intel8086.srcs/sources_1/new/intel8086.vhd:156]
+INFO: [Synth 8-638] synthesizing module 'SegmentRegisters' [D:/facultate/an 3/sem 1/SSC/proiect/intel8086/intel8086.srcs/sources_1/new/SegmentRegisters.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'SegmentRegisters' (0#1) [D:/facultate/an 3/sem 1/SSC/proiect/intel8086/intel8086.srcs/sources_1/new/SegmentRegisters.vhd:42]
+INFO: [Synth 8-3491] module 'InstructionDataFetch' declared at 'D:/facultate/an 3/sem 1/SSC/proiect/intel8086/intel8086.srcs/sources_1/new/InstructionDataFetch.vhd:35' bound to instance 'uut_if' of component 'InstructionDataFetch' [D:/facultate/an 3/sem 1/SSC/proiect/intel8086/intel8086.srcs/sources_1/new/intel8086.vhd:162]
+INFO: [Synth 8-638] synthesizing module 'InstructionDataFetch' [D:/facultate/an 3/sem 1/SSC/proiect/intel8086/intel8086.srcs/sources_1/new/InstructionDataFetch.vhd:49]
+INFO: [Synth 8-256] done synthesizing module 'InstructionDataFetch' (0#1) [D:/facultate/an 3/sem 1/SSC/proiect/intel8086/intel8086.srcs/sources_1/new/InstructionDataFetch.vhd:49]
+INFO: [Synth 8-3491] module 'UC' declared at 'D:/facultate/an 3/sem 1/SSC/proiect/intel8086/intel8086.srcs/sources_1/new/UC.vhd:34' bound to instance 'uut_UC' of component 'UC' [D:/facultate/an 3/sem 1/SSC/proiect/intel8086/intel8086.srcs/sources_1/new/intel8086.vhd:188]
+INFO: [Synth 8-638] synthesizing module 'UC' [D:/facultate/an 3/sem 1/SSC/proiect/intel8086/intel8086.srcs/sources_1/new/UC.vhd:58]
+INFO: [Synth 8-256] done synthesizing module 'UC' (0#1) [D:/facultate/an 3/sem 1/SSC/proiect/intel8086/intel8086.srcs/sources_1/new/UC.vhd:58]
+INFO: [Synth 8-3491] module 'SSD' declared at 'D:/facultate/an 2/sem2/AC/lab/SSD.vhd:14' bound to instance 'etichetaSSD' of component 'SSD' [D:/facultate/an 3/sem 1/SSC/proiect/intel8086/intel8086.srcs/sources_1/new/intel8086.vhd:226]
+INFO: [Synth 8-638] synthesizing module 'SSD' [D:/facultate/an 2/sem2/AC/lab/SSD.vhd:21]
+INFO: [Synth 8-226] default block is never used [D:/facultate/an 2/sem2/AC/lab/SSD.vhd:40]
+INFO: [Synth 8-226] default block is never used [D:/facultate/an 2/sem2/AC/lab/SSD.vhd:55]
+INFO: [Synth 8-226] default block is never used [D:/facultate/an 2/sem2/AC/lab/SSD.vhd:68]
+INFO: [Synth 8-256] done synthesizing module 'SSD' (0#1) [D:/facultate/an 2/sem2/AC/lab/SSD.vhd:21]
+INFO: [Synth 8-256] done synthesizing module 'intel8086' (0#1) [D:/facultate/an 3/sem 1/SSC/proiect/intel8086/intel8086.srcs/sources_1/new/intel8086.vhd:43]
+WARNING: [Synth 8-3848] Net led in module/entity intel8086 does not have driver. [D:/facultate/an 3/sem 1/SSC/proiect/intel8086/intel8086.srcs/sources_1/new/intel8086.vhd:38]
+WARNING: [Synth 8-7129] Port led[15] in module intel8086 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[14] in module intel8086 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[13] in module intel8086 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[12] in module intel8086 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[11] in module intel8086 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[10] in module intel8086 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[9] in module intel8086 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[8] in module intel8086 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[7] in module intel8086 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[6] in module intel8086 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[5] in module intel8086 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[4] in module intel8086 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[3] in module intel8086 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[2] in module intel8086 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[1] in module intel8086 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[0] in module intel8086 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port btn[4] in module intel8086 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port btn[3] in module intel8086 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port btn[2] in module intel8086 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[15] in module intel8086 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[14] in module intel8086 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[13] in module intel8086 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[12] in module intel8086 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[11] in module intel8086 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[10] in module intel8086 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[9] in module intel8086 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[8] in module intel8086 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[4] in module intel8086 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[3] in module intel8086 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[2] in module intel8086 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[1] in module intel8086 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[0] in module intel8086 is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1365.980 ; gain = 568.754
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1365.980 ; gain = 568.754
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1365.980 ; gain = 568.754
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1365.980 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/facultate/an 2/sem2/AC/lab/NexysA7_test_env.xdc]
+Finished Parsing XDC File [D:/facultate/an 2/sem2/AC/lab/NexysA7_test_env.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/facultate/an 2/sem2/AC/lab/NexysA7_test_env.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/intel8086_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/intel8086_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1365.980 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1365.980 ; gain = 0.000
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [C:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1365.980 ; gain = 568.754
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1365.980 ; gain = 568.754
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1365.980 ; gain = 568.754
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 1365.980 ; gain = 568.754
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   16 Bit       Adders := 3     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---RAMs : 
+	            2048K Bit	(65536 X 32 bit)          RAMs := 1     
++---Muxes : 
+	   5 Input   16 Bit        Muxes := 1     
+	   2 Input   16 Bit        Muxes := 2     
+	   3 Input   16 Bit        Muxes := 1     
+	   4 Input   16 Bit        Muxes := 1     
+	   8 Input    8 Bit        Muxes := 1     
+	   7 Input    3 Bit        Muxes := 1     
+	   9 Input    3 Bit        Muxes := 2     
+	   3 Input    3 Bit        Muxes := 2     
+	   2 Input    3 Bit        Muxes := 2     
+	   5 Input    3 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 1     
+	   4 Input    2 Bit        Muxes := 1     
+	   9 Input    2 Bit        Muxes := 4     
+	   3 Input    2 Bit        Muxes := 2     
+	   2 Input    1 Bit        Muxes := 16    
+	   9 Input    1 Bit        Muxes := 8     
+	   5 Input    1 Bit        Muxes := 6     
+	   7 Input    1 Bit        Muxes := 1     
+	   3 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port led[15] in module intel8086 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[14] in module intel8086 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[13] in module intel8086 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[12] in module intel8086 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[11] in module intel8086 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[10] in module intel8086 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[9] in module intel8086 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[8] in module intel8086 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[7] in module intel8086 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[6] in module intel8086 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[5] in module intel8086 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[4] in module intel8086 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[3] in module intel8086 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[2] in module intel8086 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[1] in module intel8086 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[0] in module intel8086 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port btn[4] in module intel8086 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port btn[3] in module intel8086 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port btn[2] in module intel8086 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[15] in module intel8086 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[14] in module intel8086 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[13] in module intel8086 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[12] in module intel8086 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[11] in module intel8086 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[10] in module intel8086 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[9] in module intel8086 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[8] in module intel8086 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[4] in module intel8086 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[3] in module intel8086 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[2] in module intel8086 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[1] in module intel8086 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[0] in module intel8086 is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 1365.980 ; gain = 568.754
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping Report (see note below)
++------------+-------------------+-----------+----------------------+-------------------+
+|Module Name | RTL Object        | Inference | Size (Depth x Width) | Primitives        | 
++------------+-------------------+-----------+----------------------+-------------------+
+|intel8086   | uut_if/memory_reg | Implied   | 64 K x 32            | RAM256X1S x 8192  | 
++------------+-------------------+-----------+----------------------+-------------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:29 . Memory (MB): peak = 1365.980 ; gain = 568.754
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+      : i_0/rd[21]
+      : i_6/rd[28]
+      : i_6/CONV_INTEGER[10]
+      : i_0/CONV_INTEGER[10]
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through i_0/i_31/O'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through i_0/i_31/O'
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1365.980 ; gain = 568.754
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping Report
++------------+-------------------+-----------+----------------------+-------------------+
+|Module Name | RTL Object        | Inference | Size (Depth x Width) | Primitives        | 
++------------+-------------------+-----------+----------------------+-------------------+
+|intel8086   | uut_if/memory_reg | Implied   | 64 K x 32            | RAM256X1S x 8192  | 
++------------+-------------------+-----------+----------------------+-------------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+Found timing loop:
+     0: i_117/O (LUT2)
+      [D:/facultate/an 3/sem 1/SSC/proiect/intel8086/intel8086.srcs/sources_1/new/InstructionDataFetch.vhd:88]
+     1: i_117/I1 (LUT2)
+     2: i_116/O (LUT2)
+      [D:/facultate/an 3/sem 1/SSC/proiect/intel8086/intel8086.srcs/sources_1/new/InstructionDataFetch.vhd:88]
+     3: i_116/I1 (LUT2)
+     4: i_8/O (LUT3)
+      [D:/facultate/an 3/sem 1/SSC/proiect/intel8086/intel8086.srcs/sources_1/new/InstructionDataFetch.vhd:94]
+     5: i_8/I1 (LUT3)
+     6: i_15/O (LUT5)
+      [D:/facultate/an 3/sem 1/SSC/proiect/intel8086/intel8086.srcs/sources_1/new/InstructionDataFetch.vhd:94]
+     7: i_15/I3 (LUT5)
+     8: i_117/O (LUT2)
+      [D:/facultate/an 3/sem 1/SSC/proiect/intel8086/intel8086.srcs/sources_1/new/InstructionDataFetch.vhd:88]
+CRITICAL WARNING: [Synth 8-295] found timing loop. [D:/facultate/an 3/sem 1/SSC/proiect/intel8086/intel8086.srcs/sources_1/new/intel8086.vhd:34]
+Inferred a: "set_disable_timing -from I1 -to O i_117"
+Found timing loop:
+     0: i_14/O (LUT5)
+      [D:/facultate/an 3/sem 1/SSC/proiect/intel8086/intel8086.srcs/sources_1/new/InstructionDataFetch.vhd:94]
+     1: i_14/I3 (LUT5)
+     2: i_117/O (LUT2)
+      [D:/facultate/an 3/sem 1/SSC/proiect/intel8086/intel8086.srcs/sources_1/new/InstructionDataFetch.vhd:88]
+     3: i_117/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [D:/facultate/an 3/sem 1/SSC/proiect/intel8086/intel8086.srcs/sources_1/new/intel8086.vhd:34]
+Inferred a: "set_disable_timing -from I3 -to O i_14"
+Found timing loop:
+     0: i_14/O (LUT5)
+      [D:/facultate/an 3/sem 1/SSC/proiect/intel8086/intel8086.srcs/sources_1/new/InstructionDataFetch.vhd:94]
+     1: i_14/O (LUT5)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [D:/facultate/an 3/sem 1/SSC/proiect/intel8086/intel8086.srcs/sources_1/new/intel8086.vhd:34]
+Found timing loop:
+     0: i_13/O (LUT6)
+      [D:/facultate/an 3/sem 1/SSC/proiect/intel8086/intel8086.srcs/sources_1/new/InstructionDataFetch.vhd:94]
+     1: i_13/I5 (LUT6)
+     2: i_14/O (LUT5)
+      [D:/facultate/an 3/sem 1/SSC/proiect/intel8086/intel8086.srcs/sources_1/new/InstructionDataFetch.vhd:94]
+     3: i_14/O (LUT5)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [D:/facultate/an 3/sem 1/SSC/proiect/intel8086/intel8086.srcs/sources_1/new/intel8086.vhd:34]
+Inferred a: "set_disable_timing -from I5 -to O i_13"
+Found timing loop:
+     0: i_13/O (LUT6)
+      [D:/facultate/an 3/sem 1/SSC/proiect/intel8086/intel8086.srcs/sources_1/new/InstructionDataFetch.vhd:94]
+     1: i_13/I1 (LUT6)
+     2: i_117/O (LUT2)
+      [D:/facultate/an 3/sem 1/SSC/proiect/intel8086/intel8086.srcs/sources_1/new/InstructionDataFetch.vhd:88]
+     3: i_117/I0 (LUT2)
+     4: i_61/O (LUT6)
+      [D:/facultate/an 3/sem 1/SSC/proiect/intel8086/intel8086.srcs/sources_1/new/InstructionDataFetch.vhd:88]
+     5: i_61/I2 (LUT6)
+     6: i_13/O (LUT6)
+      [D:/facultate/an 3/sem 1/SSC/proiect/intel8086/intel8086.srcs/sources_1/new/InstructionDataFetch.vhd:94]
+CRITICAL WARNING: [Synth 8-295] found timing loop. [D:/facultate/an 3/sem 1/SSC/proiect/intel8086/intel8086.srcs/sources_1/new/intel8086.vhd:34]
+Inferred a: "set_disable_timing -from I1 -to O i_13"
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_22_22 /A[0]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_23_23 /A[0]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_24_24 /A[0]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_25_25 /A[0]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_26_26 /A[0]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_27_27 /A[0]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_28_28 /A[0]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_29_29 /A[0]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_30_30 /A[0]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_31_31 /A[0]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_22_22 /A[1]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_23_23 /A[1]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_24_24 /A[1]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_25_25 /A[1]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_26_26 /A[1]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_27_27 /A[1]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_28_28 /A[1]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_29_29 /A[1]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_30_30 /A[1]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_31_31 /A[1]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_22_22 /A[2]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_23_23 /A[2]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_24_24 /A[2]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_25_25 /A[2]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_26_26 /A[2]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_27_27 /A[2]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_28_28 /A[2]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_29_29 /A[2]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_30_30 /A[2]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_31_31 /A[2]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_22_22 /A[3]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_23_23 /A[3]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_24_24 /A[3]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_25_25 /A[3]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_26_26 /A[3]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_27_27 /A[3]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_28_28 /A[3]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_29_29 /A[3]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_30_30 /A[3]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_31_31 /A[3]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_22_22 /A[4]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_23_23 /A[4]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_24_24 /A[4]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_25_25 /A[4]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_26_26 /A[4]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_27_27 /A[4]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_28_28 /A[4]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_29_29 /A[4]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_30_30 /A[4]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_31_31 /A[4]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_22_22 /A[5]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_23_23 /A[5]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_24_24 /A[5]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_25_25 /A[5]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_26_26 /A[5]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_27_27 /A[5]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_28_28 /A[5]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_29_29 /A[5]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_30_30 /A[5]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_31_31 /A[5]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_22_22 /A[6]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_23_23 /A[6]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_24_24 /A[6]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_25_25 /A[6]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_26_26 /A[6]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_27_27 /A[6]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_28_28 /A[6]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_29_29 /A[6]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_30_30 /A[6]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_31_31 /A[6]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_22_22 /A[7]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_23_23 /A[7]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_29_29 /A[7]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_28_28 /A[7]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_30_30 /A[7]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_26_26 /A[7]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_0_0 /A[7]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_1_1 /A[7]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_2_2 /A[7]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_3_3 /A[7]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_8_8 /A[7]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_9_9 /A[7]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_10_10 /A[7]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_11_11 /A[7]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_12_12 /A[7]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_16_16 /A[7]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_17_17 /A[7]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_18_18 /A[7]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_19_19 /A[7]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_20_20 /A[7]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_21_21 /A[7]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_24_24 /A[7]'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \uut_if/memory_reg_0_255_25_25 /A[7]'
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1365.980 ; gain = 568.754
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 1365.980 ; gain = 568.754
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 1365.980 ; gain = 568.754
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 1365.980 ; gain = 568.754
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 1365.980 ; gain = 568.754
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 1365.980 ; gain = 568.754
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 1365.980 ; gain = 568.754
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+----------+------+
+|      |Cell      |Count |
++------+----------+------+
+|1     |BUFG      |     1|
+|2     |CARRY4    |    21|
+|3     |LUT1      |     3|
+|4     |LUT2      |    21|
+|5     |LUT3      |    20|
+|6     |LUT4      |    16|
+|7     |LUT5      |    16|
+|8     |LUT6      |    55|
+|9     |RAM256X1S |    25|
+|10    |FDCE      |    16|
+|11    |FDRE      |    38|
+|12    |IBUF      |     6|
+|13    |OBUF      |    15|
+|14    |OBUFT     |    16|
++------+----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 1365.980 ; gain = 568.754
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 5 critical warnings and 128 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:23 ; elapsed = 00:00:33 . Memory (MB): peak = 1365.980 ; gain = 568.754
+Synthesis Optimization Complete : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 1365.980 ; gain = 568.754
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1365.980 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 46 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1367.500 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 25 instances were transformed.
+  RAM256X1S => RAM256X1S (MUXF7(x2), MUXF8, RAMS64E(x4)): 25 instances
+
+Synth Design complete, checksum: b55c301d
+INFO: [Common 17-83] Releasing license: Synthesis
+43 Infos, 161 Warnings, 5 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:36 ; elapsed = 00:00:41 . Memory (MB): peak = 1367.500 ; gain = 965.289
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+INFO: [Common 17-1381] The checkpoint 'D:/facultate/an 3/sem 1/SSC/proiect/intel8086/intel8086.runs/synth_1/intel8086.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file intel8086_utilization_synth.rpt -pb intel8086_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Dec 13 19:50:51 2024...

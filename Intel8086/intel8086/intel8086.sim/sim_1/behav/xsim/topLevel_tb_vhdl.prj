@@ -1,0 +1,14 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../intel8086.srcs/sources_1/new/ALU.vhd" \
+"../../../../intel8086.srcs/sources_1/new/InstructionDataFetch.vhd" \
+"../../../../intel8086.srcs/sources_1/new/InstructionQueue.vhd" \
+"../../../../intel8086.srcs/sources_1/new/JumpControl.vhd" \
+"../../../../intel8086.srcs/sources_1/new/RegFile.vhd" \
+"../../../../intel8086.srcs/sources_1/new/SegmentRegisters.vhd" \
+"../../../../intel8086.srcs/sources_1/new/UC.vhd" \
+"../../../../intel8086.srcs/sources_1/new/topLevel.vhd" \
+"../../../../intel8086.srcs/sim_1/new/tb_if_reg.vhd" \
+
+# Do not sort compile order
+nosort

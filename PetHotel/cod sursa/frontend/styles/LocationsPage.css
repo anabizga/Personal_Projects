@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #dff9fb;
+    color: #333;
+}
+
+.locations-page {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.locations-page h1 {
+    text-align: center;
+    color: #007acc;
+    margin-bottom: 20px;
+}
+
+.locations-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.location-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.location-card h2 {
+    text-align: left;
+    font-size: 1.5rem;
+    color: #005b99;
+}
+
+.location-card p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 10px 0;
+}
+
+.location-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.details-button, .edit-location-button, .delete-location-button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.details-button {
+    background-color: #007bff;
+    color: white;
+}
+
+.edit-location-button {
+    background-color: #007bff;
+    color: white;
+}
+
+.delete-location-button {
+    background-color: #007bff;
+    color: white;
+}
+
+.details-button:hover {
+    background-color: #0056b3;
+}
+
+.edit-location-button:hover {
+    background-color: #0056b3;
+}
+
+.delete-location-button:hover {
+    background-color: #0056b3;
+}
+
+.add-location-box {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.add-location-box input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.add-location-box button {
+    background-color: #007acc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.add-location-box button:hover {
+    background-color: #005b99;
+}

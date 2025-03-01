@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #dff9fb;
+    color: #333;
+}
+
+.rooms-page {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.rooms-page h1 {
+    text-align: center;
+    color: #007acc;
+    margin-bottom: 20px;
+}
+
+.rooms-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.room-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.room-card h2 {
+    text-align: left;
+    font-size: 1.5rem;
+    color: #005b99;
+}
+
+.room-card p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 10px 0;
+}
+
+.add-room-box {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.add-room-box input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.add-room-box button {
+    background-color: #007acc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+}
+
+.add-room-box button:hover {
+    background-color: #005b99;
+}
+
+.edit-room-button,
+.delete-room-button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    color: white;
+}

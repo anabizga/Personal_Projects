@@ -1,0 +1,25 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+D:/facultate/an 2/sem2/AC/lab/MPG.vhd,1710422250,vhdl,,,,mpg,,,,,,,,
+D:/facultate/an 2/sem2/AC/lab/SSD.vhd,1710422245,vhdl,,,,ssd,,,,,,,,
+D:/facultate/an 3/sem 1/SSC/proiect/intel8086/intel8086.srcs/sim_1/new/eu_tb.vhd,1735570527,vhdl,,,,eu_tb,,,,,,,,
+D:/facultate/an 3/sem 1/SSC/proiect/intel8086/intel8086.srcs/sim_1/new/tb_ALU.vhd,1736085177,vhdl,,,,tb_alu,,,,,,,,
+D:/facultate/an 3/sem 1/SSC/proiect/intel8086/intel8086.srcs/sim_1/new/tb_if_reg.vhd,1736086651,vhdl,,,,toplevel_tb,,,,,,,,
+D:/facultate/an 3/sem 1/SSC/proiect/intel8086/intel8086.srcs/sim_1/new/tb_instructionQueue.vhd,1736084136,vhdl,,,,tb_instructionqueue,,,,,,,,
+D:/facultate/an 3/sem 1/SSC/proiect/intel8086/intel8086.srcs/sim_1/new/tb_instructionfetch.vhd,1736083503,vhdl,,,,tb_instructionfetch,,,,,,,,
+D:/facultate/an 3/sem 1/SSC/proiect/intel8086/intel8086.srcs/sim_1/new/tb_jumpcontrol.vhd,1731082677,vhdl,,,,tb_jumpcontrol,,,,,,,,
+D:/facultate/an 3/sem 1/SSC/proiect/intel8086/intel8086.srcs/sim_1/new/tb_regFile.vhd,1734421295,vhdl,,,,tb_regfile,,,,,,,,
+D:/facultate/an 3/sem 1/SSC/proiect/intel8086/intel8086.srcs/sim_1/new/tb_segmentRegister.vhd,1734095494,vhdl,,,,tb_segmentregister,,,,,,,,
+D:/facultate/an 3/sem 1/SSC/proiect/intel8086/intel8086.srcs/sim_1/new/tb_uc.vhd,1736085636,vhdl,,,,tb_uc,,,,,,,,
+D:/facultate/an 3/sem 1/SSC/proiect/intel8086/intel8086.srcs/sources_1/new/ALU.vhd,1736081962,vhdl,,,,alu,,,,,,,,
+D:/facultate/an 3/sem 1/SSC/proiect/intel8086/intel8086.srcs/sources_1/new/InstructionDataFetch.vhd,1735572618,vhdl,,,,instructiondatafetch,,,,,,,,
+D:/facultate/an 3/sem 1/SSC/proiect/intel8086/intel8086.srcs/sources_1/new/InstructionQueue.vhd,1736080482,vhdl,,,,instructionqueue,,,,,,,,
+D:/facultate/an 3/sem 1/SSC/proiect/intel8086/intel8086.srcs/sources_1/new/JumpControl.vhd,1731082392,vhdl,,,,jumpcontrol,,,,,,,,
+D:/facultate/an 3/sem 1/SSC/proiect/intel8086/intel8086.srcs/sources_1/new/RegFile.vhd,1734456841,vhdl,,,,regfile,,,,,,,,
+D:/facultate/an 3/sem 1/SSC/proiect/intel8086/intel8086.srcs/sources_1/new/SegmentRegisters.vhd,1734095427,vhdl,,,,segmentregisters,,,,,,,,
+D:/facultate/an 3/sem 1/SSC/proiect/intel8086/intel8086.srcs/sources_1/new/UC.vhd,1736081638,vhdl,,,,uc,,,,,,,,
+D:/facultate/an 3/sem 1/SSC/proiect/intel8086/intel8086.srcs/sources_1/new/eu.vhd,1735570329,vhdl,,,,eu,,,,,,,,
+D:/facultate/an 3/sem 1/SSC/proiect/intel8086/intel8086.srcs/sources_1/new/intel8086.vhd,1736082639,vhdl,,,,intel8086,,,,,,,,
+D:/facultate/an 3/sem 1/SSC/proiect/intel8086/intel8086.srcs/sources_1/new/topLevel.vhd,1736081928,vhdl,,,,toplevel,,,,,,,,
